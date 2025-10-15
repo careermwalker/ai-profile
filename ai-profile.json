@@ -13,10 +13,10 @@
   },
   "aiPolicy": {
     "require_disclosure": true,
-    "expected_label": "#AI-GENERATED",
+    "expected_label": "#AIGENERATED",
     "expected_signature_url": "https://raw.githubusercontent.com/careermwalker/ai-profile/main/ai_public.pem",
     "expected_signature_algorithm": "ed25519",
-    "note": "If a message is AI-generated, include the label '#AI-GENERATED' and a short signed token or signature URL. If the sender cannot include a signature, verify by heuristics."
+    "note": "If a message is AI-generated, include the label '#AIGENERATED' and a short signed token or signature URL. If the sender cannot include a signature, verify by heuristics."
   },
   "service": {
     "verification_endpoint": "https://careermwalker.github.io/ai-profile/verify-instructions.html"
